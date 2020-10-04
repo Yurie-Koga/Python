@@ -4,10 +4,10 @@
 # % (modulo): 'mod' remainder
 # ** (power)
 
-print(10 / 2)  # 5.0
-print(10 // 3)  # 3
-print(10 % 3)  # 1
-print(10 ** 3)  # 1000
+print(f"10 / 2  is {10 / 2}")  # 5.0
+print(f"10 // 3 is {10 // 3}")  # 3
+print(f"10 % 3  is {10 % 3}")  # 1
+print(f"10 ** 3 is {10 ** 3}")  # 10*10*10 = 1000
 
 # = : assignment operator
 number = 7
@@ -34,26 +34,26 @@ print("number =", number)
 
 # 1. Comparison
 # == : equality (equal)
-print(3 == 4)
+print("3 == 4: ", 3 == 4)
 # != : not equal to
-print(3 != 4)
+print("3 != 4: ", 3 != 4)
 
 # > : greater than
 # < : less than
 # >= : greater than or equal to
 # <= : less than or equal to
-print(3 > 4)
-print(3 <= 3)
+print("3 > 4:  ", 3 > 4)
+print("3 <= 3: ", 3 <= 3)
 
 # This is 'chained comparison' (python only)
 # Check (3 < x) and (x < 5) at the same time
 x = 4
-print(3 < x < 5)
+print(f"x = {x}, 3 < x < 5: {3 < x < 5}")
 
 # A or B : either A or B has to be True, to return True
 # A and B : both A and B have to be True, to return True
-print((3 != 3) or (4 == 4))  # True
-print((3 < x) and (x < 5))
+print("(3 != 3) or (4 == 4) : ", (3 != 3) or (4 == 4))  # True
+print(f"x = {x}, (3 < x) and (x < 5) :  ", (3 < x) and (x < 5))
 
 # Exercise
 num = 10

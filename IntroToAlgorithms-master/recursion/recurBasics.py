@@ -44,7 +44,7 @@ def power_loop(base: int, exp: int):
     if base <= 0:
         return 0
     res = 1
-    for _ in range(exp):    # "_" means index value is not being used in the loop
+    for _ in range(exp):    # "_" means 00_index value is not being used in the loop
         res *= base
     return res
 

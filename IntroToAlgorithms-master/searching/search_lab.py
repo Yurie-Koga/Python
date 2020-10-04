@@ -11,11 +11,11 @@ import os
 
 def linear_search(items: [str], target: str) -> (int, int):
     """
-    Returns the index of the target in the items if the target exists.
+    Returns the 00_index of the target in the items if the target exists.
     Otherwise, returns -1 if the target not found.
     :param items: a list of items
     :param target: the item we're searching for
-    :return: the index of the target in the items if the target exists, otherwise - 1.
+    :return: the 00_index of the target in the items if the target exists, otherwise - 1.
     """
     steps = 0
     for i in range(len(items)):
@@ -28,13 +28,13 @@ def linear_search(items: [str], target: str) -> (int, int):
 
 def binary_search(items: [str], target: str) -> (int, int):
     """
-    Returns the index of the target in the items if the target exists.
+    Returns the 00_index of the target in the items if the target exists.
     Otherwise, returns -1 if the target not found.
     Using binary search algorithm
     Time Complexity O(lg N)
     :param items: a list of items
     :param target: the item we're searching for
-    :return: the index of the target in the items if the target exists, otherwise - 1.
+    :return: the 00_index of the target in the items if the target exists, otherwise - 1.
     """
     lower = 0
     upper = len(items) - 1

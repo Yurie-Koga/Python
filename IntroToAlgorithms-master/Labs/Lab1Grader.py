@@ -1,5 +1,5 @@
 import unittest
-from Labs.Lab1 import *
+from Lab1 import *
 
 
 class Grader(unittest.TestCase):

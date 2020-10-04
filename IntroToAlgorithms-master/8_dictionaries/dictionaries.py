@@ -9,7 +9,7 @@
 # "orange" : "the round fruit of a tree of the citrus family"
 #
 
-# lists, tuples, strings (position, 0-index based)
+# lists, tuples, strings (position, 0-00_index based)
 
 contacts = {
     "Derrick": [(0, "123-456-7890"), (1, "429-123-2124")],

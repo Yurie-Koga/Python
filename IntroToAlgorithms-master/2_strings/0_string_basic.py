@@ -8,9 +8,9 @@ print("Hello" * 10)
 
 # String indexing (position)
 singer = "Lady Gaga"
-# index   012345678
+# 00_index   012345678
 print(singer[0])  # "L"
-# print(singer[9])  # IndexError: string index out of range
+# print(singer[9])  # IndexError: string 00_index out of range
 print(singer[-1])  # the last character
 print(singer[-5])  # " "
 

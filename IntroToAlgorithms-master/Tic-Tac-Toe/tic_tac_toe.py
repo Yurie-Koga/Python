@@ -38,7 +38,7 @@ def get_input(data: [], player: int) -> int:
     Provide input instructions and return the input value.
     :params data: a list of a game data
     :params player: a key of players
-    :return: an integer which is decreased one from the input value to used as list index
+    :return: an integer which is decreased one from the input value to used as list 00_index
     """
     # ex_str = "ex"
     # print(f"== Enter '{ex_str}' to stop running. ==")

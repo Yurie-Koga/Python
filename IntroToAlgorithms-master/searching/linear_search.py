@@ -12,11 +12,11 @@ import random
 
 def linear_search(items: [int], target: int) -> (int, int):
     """
-    Returns the index of the target in the items if the target exists.
+    Returns the 00_index of the target in the items if the target exists.
     Otherwise, returns -1 if the target not found.
     :param items: a list of items
     :param target: the item we're searching for
-    :return: the index of the target in the items if the target exists, otherwise - 1.
+    :return: the 00_index of the target in the items if the target exists, otherwise - 1.
     """
     steps = 0
     for i in range(len(items)):
@@ -36,7 +36,7 @@ if __name__== '__main__':
     # Pick a random item in the list above (l)
     index = random.randint(0, 99)
     print(f"target number: {search_items[index]}")
-    print(f"target index: {index}")
+    print(f"target 00_index: {index}")
 
     print(index == linear_search(search_items, search_items[index]))
 

@@ -112,11 +112,11 @@ def fibonacci_nth_start0_loop(n: int) -> int:
     #
     # for i in range(1, n+1):
     #     f0, f1 = f1, f0 + f1
-    #     print(f"index: {i}, f0: {f0}, f1: {f1}")
+    #     print(f"00_index: {i}, f0: {f0}, f1: {f1}")
 
     for i in range(n):  # range(0) = 0 <= < 0 -> when n = 0 then loop will not run
         f0, f1 = f1, f0 + f1
-        # print(f"index: {i}, f0: {f0}, f1: {f1}")
+        # print(f"00_index: {i}, f0: {f0}, f1: {f1}")
     return f0
 
 
@@ -147,11 +147,11 @@ def fibonacci_nth_start1_loop(n: int) -> int:
     #
     # for i in range(1, n+1):
     #     f0, f1 = f1, f0 + f1
-    #     print(f"index: {i}, f0: {f0}, f1: {f1}")
+    #     print(f"00_index: {i}, f0: {f0}, f1: {f1}")
 
     # for i in range(n - 1):
     #     f0, f1 = f1, f0 + f1
-    #     print(f"index: {i}, f0: {f0}, f1: {f1}")
+    #     print(f"00_index: {i}, f0: {f0}, f1: {f1}")
     # return f0
 
     f = 1

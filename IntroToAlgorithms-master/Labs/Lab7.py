@@ -27,7 +27,7 @@ def get_reverse_recur(word: str, index: int):
 def get_reverse_loop(word: str):
     res = ""
     for i in range(len(word) - 1, -1, -1):
-        # print(f"index: {i}")
+        # print(f"00_index: {i}")
         res += word[i]
     return res
 

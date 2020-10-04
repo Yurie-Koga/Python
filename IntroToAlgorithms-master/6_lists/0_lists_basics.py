@@ -12,12 +12,12 @@ print(squares)
 # 3. list methods
 animals = ["Tiger", "Beaver", "Eagle", "Jaguar", "Bull", "Condor", "Panda", "Koi"]
 animals.append("Dog")  # add "Dog" at the end of the list
-animals.insert(0, "Cat")  # insert "Cat" at 0 index
+animals.insert(0, "Cat")  # insert "Cat" at 0 00_index
 animals.remove("Panda")  # remove "Panda" from the list, returns None
-print(animals.pop(0))  # pop(remove) the element at index 0, returns the popped element
+print(animals.pop(0))  # pop(remove) the element at 00_index 0, returns the popped element
 num_koi = animals.count("Koi")  # count the number of "Koi" in the list
 print(num_koi)
-animals.index("Beaver")  # return the index if the first occurrence of "Beaver" in the list
+animals.index("Beaver")  # return the 00_index if the first occurrence of "Beaver" in the list
 print(animals)
 
 # Indexing a list

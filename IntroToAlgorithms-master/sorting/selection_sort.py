@@ -1,7 +1,7 @@
 # Selection Sort
 # (pseudo-code)
 # for each scan from 0 to len(alist)
-#     find the min element (linear search)  : If I use binary search here, could be faster? let's check later
+#     find the min element (linear search)  : it's unsorted list, unable to use binary search.
 #     swap the min element with alist[scan]
 
 # Time Complexity
@@ -32,8 +32,8 @@ def selection_sort_(items: [int]):
         #min_ele = 0 # default value can be items[0]
         #min_ele = items[0]  #then no need to use value. use items[min_ind] instead
         #min_ind = 0
-        min_ind = scan # then now scan is the most smallest index in the loop
-        # for i in range(len(items) - 1 - scan):    # then now second loop should start from the next index to scan
+        min_ind = scan # then now scan is the most smallest 00_index in the loop
+        # for i in range(len(items) - 1 - scan):    # then now second loop should start from the next 00_index to scan
         for i in range(scan + 1, len(items)):   # NOT "len(items) - 1"
             count += 1
             if items[min_ind] > items[i]:   # leaner search
@@ -53,8 +53,8 @@ def selection_sort_improved(items: [int]):
         #min_ele = 0 # default value can be items[0]
         #min_ele = items[0]  #then no need to use value. use items[min_ind] instead
         #min_ind = 0
-        min_ind = scan # then now scan is the most smallest index in the loop
-        # for i in range(len(items) - 1 - scan):    # then now second loop should start from the next index to scan
+        min_ind = scan # then now scan is the most smallest 00_index in the loop
+        # for i in range(len(items) - 1 - scan):    # then now second loop should start from the next 00_index to scan
         for i in range(scan + 1, len(items)):   # NOT "len(items) - 1"
             count += 1
             if items[min_ind] > items[i]:   # leaner search
