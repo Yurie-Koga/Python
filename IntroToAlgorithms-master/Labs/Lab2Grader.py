@@ -1,6 +1,6 @@
 import unittest
-#from Labs.Lab2 import *
-from Lab2Sol import *
+from Lab2 import *
+
 
 class Grader(unittest.TestCase):
     def test_first_last6(self):

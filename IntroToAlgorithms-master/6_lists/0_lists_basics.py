@@ -21,15 +21,17 @@ animals.index("Beaver")  # return the 00_index if the first occurrence of "Beave
 print(animals)
 
 # Indexing a list
+print("-------- Indexing a list --------")
 countries = ["Canada", "Japan", "Germany",
              "Brazil", "India", "Spain",
              "Ecuador", "South Korea", "China"]
 
-print(countries[0])
-print(len(countries))
-print(countries[-1])
+print(f"index 0: {countries[0]}")
+print(f"len(countries): {len(countries)}, index len(countries)-1: {countries[len(countries)-1]}")
+print(f"index -1: {countries[-1]}")
 
 # Slicing a list (sublist)
+print("-------- Slicing a list --------")
 print(countries[0:3])
 print(countries[3:])
 print(countries[:2])
