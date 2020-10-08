@@ -29,6 +29,7 @@ countries = ["Canada", "Japan", "Germany",
 print(f"index 0: {countries[0]}")
 print(f"len(countries): {len(countries)}, index len(countries)-1: {countries[len(countries)-1]}")
 print(f"index -1: {countries[-1]}")
+# '-1' is common for the last element
 
 # Slicing a list (sublist)
 print("-------- Slicing a list --------")
