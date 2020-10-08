@@ -88,12 +88,20 @@ def max_ends3(nums):
         return list(map(lambda x: nums[-1], nums))
         # return [nums[-1] for x in nums]
 
-# don't know how to write using map
+# it's not suitable to use map at this time since need to use two of list elements to compare.
 # def max_ends3_map(nums):
-#     return list(map(larger(nums[0], nums[-1]), nums))
+#     return list(map(larger, nums))
 #
-# def larger(a, b):
-#     return a if a > b else b
+# def larger(nums):
+#     return nums[0] if nums[0] > nums[-1] else nums[-1]
+
+# def max_ends3(nums):
+#     """
+#     Given a list of ints length 3, figure out which is larger, the first or last element in the list,
+#     and set all the other elements to be that value. Return the changed list.
+#     """
+#     return [nums[0]] * 3 if nums[0] > nums[-1] else [nums[-1]] * 3
+
 
 def make_ends(nums):
     """

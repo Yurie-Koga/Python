@@ -87,7 +87,8 @@ def main_two_players():
 
 
 if __name__ == "__main__":
-    main_two_players()
+    # main_two_players()
+    print(-2**11)
 
 
 
